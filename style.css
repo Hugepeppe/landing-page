@@ -1,6 +1,6 @@
 
 :root {
-    --width: 800px;
+    --width: 1000px;
 }
 
 body {
@@ -37,7 +37,7 @@ body {
     display: flex;
     font-size: 18px;
     color: #e5e7eb;
-    gap: 10px;
+    gap: 20px;
     font-weight: 100;
 }
 
@@ -61,6 +61,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-right: 50px;
+    justify-content: space-between;
    
 }
 
@@ -92,8 +93,14 @@ button {
     border-style: solid;
     padding: 5px 20px;
     width: fit-content;
-    
-    
+       
+}
+
+.header-text > button {
+   display: flex;
+
+   
+
 }
 
 img {
@@ -185,7 +192,8 @@ img {
     justify-content: space-around;
     align-items: center;
     max-width: var(--width);
-    
+    padding: 0px 20px;
+    box-sizing: border-box;
 }
 
 .action-text {
